@@ -19,7 +19,7 @@
 			"type": "string",
 			"defaultValue": "https://AKVdevtms.vault.azure.net/"
 		},
-		"BlobTrigger_properties_typeProperties_scope": {
+		"trigger1_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/8dd5d9a4-5663-475f-9942-5251860bd20d/resourceGroups/dev/providers/Microsoft.Storage/storageAccounts/devtesttms"
 		},
@@ -59,8 +59,8 @@
 					"AzureBlobStorage2_properties_typeProperties_connectionString_secretName": {
 						"value": "[parameters('AzureBlobStorage2_properties_typeProperties_connectionString_secretName')]"
 					},
-					"BlobTrigger_properties_typeProperties_scope": {
-						"value": "[parameters('BlobTrigger_properties_typeProperties_scope')]"
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
